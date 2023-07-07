@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+body {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: larger;
+      padding: 1rem;
+    }
+    div.secret {
+      width: 70vw;
+      h1 {
+        padding: 1rem;
+      }
+      h3 {
+        font-size: xx-large;
+        padding: 2rem;
+        margin: 2rem;
+      }
+    }
+    div {
+      h1,
+      h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      h2 {
+        position: relative;
+        top: 1rem;
+      }
+    }
+
+    div.discription {
+      width: 60vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30vw;
+        height: 30vw;
+      }
+    }
+
+    div.habit {
+      padding: 0.5rem;
+      div.discription {
+        p {
+          display: contents;
+          font-size: larger;
+          padding: 3rem;
+        }
+        height: 20vw;
+      }
+    }
+    div.interest {
+      padding: 1rem;
+      height: 20vw;
+    }
+    div.collegeLife {
+      h1 {
+        position: relative;
+        bottom: 1.5rem;
+      }
+    }
+    div.book {
+      h1 {
+        position: relative;
+        padding: 4rem;
+        top: 2rem;
+      }
+      h2 {
+        position: relative;
+        padding: 2rem;
+        font-style: oblique;
+        font-size: xx-large;
+      }
+      img {
+        padding: 1rem 2rem;
+
+        height: 20vw;
+      }
+      .money {
+        position: relative;
+        left: 3rem;
+        font-size: larger;
+      }
+
+      p {
+        padding: 2rem;
+      }
+    }
+    div.mentors {
+      h1 {
+        position: relative;
+        padding: 3rem;
+      }
+      div.block2 {
+        h3,
+        p {
+          padding: 1rem;
+        }
+        p {
+          font-size: large;
+        }
+      }
+    }
+    div.end {
+      font-style: oblique;
+      font-size: x-large;
+      padding: 3rem;
+    }
+  }
+}

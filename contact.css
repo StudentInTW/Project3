@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body main p {
+  font-size: larger;
+  padding: 1rem;
+}
+body main div.secret {
+  width: 70vw;
+}
+body main div.secret h1 {
+  padding: 1rem;
+}
+body main div.secret h3 {
+  font-size: xx-large;
+  padding: 2rem;
+  margin: 2rem;
+}
+body main div h1,
+body main div h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body main div h2 {
+  position: relative;
+  top: 1rem;
+}
+body main div.discription {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body main div.discription img {
+  width: 30vw;
+  height: 30vw;
+}
+body main div.habit {
+  padding: 0.5rem;
+}
+body main div.habit div.discription {
+  height: 20vw;
+}
+body main div.habit div.discription p {
+  display: contents;
+  font-size: larger;
+  padding: 3rem;
+}
+body main div.interest {
+  padding: 1rem;
+  height: 20vw;
+}
+body main div.collegeLife h1 {
+  position: relative;
+  bottom: 1.5rem;
+}
+body main div.book h1 {
+  position: relative;
+  padding: 4rem;
+  top: 2rem;
+}
+body main div.book h2 {
+  position: relative;
+  padding: 2rem;
+  font-style: oblique;
+  font-size: xx-large;
+}
+body main div.book img {
+  padding: 1rem 2rem;
+  height: 20vw;
+}
+body main div.book .money {
+  position: relative;
+  left: 3rem;
+  font-size: larger;
+}
+body main div.book p {
+  padding: 2rem;
+}
+body main div.mentors h1 {
+  position: relative;
+  padding: 3rem;
+}
+body main div.mentors div.block2 h3,
+body main div.mentors div.block2 p {
+  padding: 1rem;
+}
+body main div.mentors div.block2 p {
+  font-size: large;
+}
+body main div.end {
+  font-style: oblique;
+  font-size: x-large;
+  padding: 3rem;
+}/*# sourceMappingURL=contact.css.map */
